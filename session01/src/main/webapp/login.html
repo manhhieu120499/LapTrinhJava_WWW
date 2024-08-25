@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login page</title>
+</head>
+<body>
+<div style="width: 350px;
+                height: 200px;
+                margin: 250px auto;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                background-color: green;
+                color: white;
+                border-radius: 10px;
+            "
+>
+    <h2>Login</h2>
+    <form action="doLogin" method="post" style="display: flex;
+        flex-direction: column; width: 100%; align-items: center; justify-content: center;">
+        <label>
+            Username:
+            <input type="text" name="us" placeholder="Enter your username...">
+        </label>
+        <label style="margin-top: 10px;">
+            Password:
+            <input type="password" name="pws">
+        </label>
+        <label style="margin-top: 10px; display: flex; justify-content: center; width: 100%; gap: 20px;">
+            <input type="submit" value="Login" style="background-color: yellow; width: 100px; height: 30px;">
+            <input type="reset" value="Reset" style="width: 100px; height: 30px;">
+        </label>
+    </form>
+</div>
+</body>
+</html>
